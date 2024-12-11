@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myFirsPod
+  labels:
+    app: python
+spec:
+  restartPolicy: Always        # Always, OnFailure, Never
+  containers:
+  - name: python-pod
+    image: python:3.12.7-slim
+    imagePullPolicy: IfNotPresent  # Always, IfNotPresent, Never
+    ports:
+    - containerPort: 8000

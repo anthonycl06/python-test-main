@@ -1,0 +1,7 @@
+{
+    "name": "applicant name",
+    "email": "applicant email",
+    "phone": "applicant phone",
+    "address": "applicant address",
+    "skills": ["skill1", "skill2", "skill3"]
+}
